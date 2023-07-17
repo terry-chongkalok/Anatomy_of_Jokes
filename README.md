@@ -8,10 +8,10 @@ The entire project was completed in Google Colab to take advantage of the free G
 - Data Source: Dataset from Github Repository: [ColBERT-Using-BERT-Sentence-Embedding-for-Humor-Detection](https://github.com/Moradnejad/ColBERT-Using-BERT-Sentence-Embedding-for-Humor-Detection)
 - Base model: [distilroberta-base ](https://huggingface.co/distilroberta-base)
 - Model Evauation after fine-tuning:
-    - Accuracy: `0.98`
-    - F1 Score: `0.98`
+    - Accuracy: **`0.98`**
+    - F1 Score: **`0.98`**
 
-## Observations on Detection Explanations:
+## Observations on Detection Explanations
 
 In most cases the SHAP Explainer successfully identified the punch words in jokes with a positive contribution to the joke detection.
 ![Example of Punch Words Identified](img/cant_count.png)
@@ -26,7 +26,7 @@ However, the explanation results also revealed that there is still room for impr
 
 3. When comparing the base values for sentences of different lengths, it was observed that the detection model generally predicted a higher probability for longer sentences, which suggests a possible bias.
 
-## Data-centric Ideas for Future Project Improvements:
+## Data-centric Ideas for Future Project Enhancement
 
 1. Collect more diverse data from different sources, eg including more non joke text containing pronouns, longer non joke text, or shorter joke text.
 
